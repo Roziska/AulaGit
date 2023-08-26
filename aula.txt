@@ -1,2 +1,11 @@
-Aula
-Teste
+
+git config --global user.name "Mona Lisa"
+git config --global user.email "email do git"
+
+
+git commit -m "versao1"
+git push -u origin master
+
+git checkout -b develop
+
+git push --set-upstream origin develop
